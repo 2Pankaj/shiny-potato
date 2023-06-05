@@ -14,7 +14,7 @@ import { fileURLToPath } from 'url';
 dotenv.config();
 
 //databse config
-const  __filename = fileUrlToPath(import.meta.url);
+const  __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 connectDB();
 
